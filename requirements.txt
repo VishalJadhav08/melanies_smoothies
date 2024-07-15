@@ -2,7 +2,7 @@
 #snowflake-connecter-python
 #snowflake-snowpark-python
 #streamlit = 24.1.2
-name: app_environment
+#name: app_environment
 channels:
   - snowflake
 dependencies:
