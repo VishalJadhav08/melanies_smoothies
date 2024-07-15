@@ -1,12 +1,4 @@
-#requirements.txt
-#snowflake-connecter-python
-#snowflake-snowpark-python
-#streamlit = 24.1.2
-#name: app_environment
-#channels:
-#  - snowflake
-#dependencies:
-  - python=3.8.*
-  - snowflake-snowpark-python= 1.2.0
-  - snowflake-connecter-python= 3.0.3
-  - streamlit==1.36.0
+# requirements.txt
+snowflake-connecter-python
+snowflake-snowpark-python
+streamlit==1.31.1
