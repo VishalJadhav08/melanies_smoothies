@@ -11,10 +11,8 @@ st.write(
 
 NAME_ON_ORDER  = st.text_input("Name of smoothie:")
 st.write("The name on your smoothie will be:", NAME_ON_ORDER )
-
 cnx = st.connection("snowflake")
 session = cnx.session()
-
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
 #st.dataframe(data=my_dataframe, use_container_width=True)
 ingredients_list=st.multiselect(
