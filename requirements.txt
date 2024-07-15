@@ -9,4 +9,4 @@
   - python=3.8.*
   - snowflake-snowpark-python= 1.2.0
   - snowflake-connecter-python= 3.0.3
-  - streamlit= 1.36.0
+  - streamlit==1.36.0
