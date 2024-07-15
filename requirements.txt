@@ -1,4 +1,4 @@
 # requirements.txt
-snowflake-connecter-python==2.7.9
+pip install snowflake-connector-python
 snowflake-snowpark-python==1.2.0
 streamlit==1.36.0
