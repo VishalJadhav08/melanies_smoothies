@@ -1,7 +1,7 @@
 # Import python packages
 import streamlit as st
 import requests
-import pandas as pd_df
+import pandas 
 from snowflake.snowpark.functions import col
 
 # Write directly to the app
